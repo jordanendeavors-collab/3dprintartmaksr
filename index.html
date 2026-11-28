@@ -5400,6 +5400,17 @@ const cn = document.getElementById('gFloat'); if (cn) cn.addEventListener('click
   fromHash(); addEventListener('hashchange', fromHash);
 })();
 </script>
+<!-- Wave Family + Sound Lab links -->
+<div id="wfBadge" style="position:fixed;right:12px;bottom:12px;z-index:99998;font-family:Calibri,Arial,sans-serif">
+  <div id="wfCard" hidden style="background:#fff;color:#1d2321;border:1px solid #d9dcd6;border-radius:14px;padding:12px;margin-bottom:8px;width:220px;box-shadow:0 8px 24px rgba(0,0,0,.25)">
+    <div style="font-family:Cambria,Georgia,serif;font-size:17px;margin-bottom:4px">Learn the waves</div>
+    <div style="font-size:13px;color:#5f6b66;margin-bottom:8px">Why your prints, sand plates and speakers all follow the same wave math.</div>
+    <a href="https://4in7hld8hum.com/wave-family.html" target="_blank" rel="noopener" style="display:block;color:#2f7d6d;font-weight:700;font-size:14px;padding:6px 0">The Wave Family</a>
+    <a href="https://4in7hld8hum.com/stars.html" target="_blank" rel="noopener" style="display:block;color:#2f7d6d;font-weight:700;font-size:14px;padding:6px 0">Constellation Sound Lab</a>
+  </div>
+  <button id="wfBtn" type="button" aria-expanded="false" aria-controls="wfCard" style="float:right;min-height:44px;padding:0 14px;border-radius:999px;border:1px solid #d9dcd6;background:#14233f;color:#fff;font:700 14px Calibri,Arial,sans-serif;box-shadow:0 4px 14px rgba(0,0,0,.25);cursor:pointer">Waves</button>
+</div>
+<script>(function(){var b=document.getElementById('wfBtn'),c=document.getElementById('wfCard');if(!b||!c)return;b.addEventListener('click',function(){c.hidden=!c.hidden;b.setAttribute('aria-expanded',String(!c.hidden))})})();</script>
 <!-- Chameleon Studios link + QR -->
 <div id="csBadge" style="position:fixed;left:12px;bottom:12px;z-index:99999;font-family:Calibri,Arial,sans-serif">
   <div id="csCard" hidden style="background:#fff;color:#1d2321;border:1px solid #d9dcd6;border-radius:14px;padding:12px;margin-bottom:8px;width:200px;box-shadow:0 8px 24px rgba(0,0,0,.25);text-align:center">
